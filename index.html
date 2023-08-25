@@ -5,35 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pong-Canvas</title>
-    <style>
-      body{
-        background: #CCCCCC;
-      }
-    
-      h1 {
-        color: #3c04f3;
-      }
-      p {
-        color: black;
-        margin: auto;
-        font-weight: bold;
-        font-size: 30px;
-      }
-      #oponente {
-        color: red;
-      }
-      #jogador{
-        color: green;
-      }
-    </style>
+    <link rel="Stylesheet" href="css/style.css">
   </head>
   <body>
     <canvas></canvas>
     <h1>Placar:</h1>
     <p>Jogador:<strong id="jogador">0</strong></p>
     <p>Oponente: <strong id="oponente">0</strong></p>
-    <audio src="sound/ponto.mp3" id="marcaPonto"></audio>
     <audio src="sound/raquetada.mp3" id="raquetada"></audio>
-    <script src="js/script.js"></script>
+    <script src="modules/screen.js"></script>
+    <script src="modules/ball.js"></script>
+    <script src="modules/player.js"></script>
+    <script src="modules/physics.js"></script>
+    <script src="modules/score.js"></script>
+    <script src="modules/controls.js"></script>
+    <script src="modules/app.js"></script>
   </body>
 </html>
